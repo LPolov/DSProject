@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{AFE3E7A0-F7CE-4BF1-88E9-64EB94AEF269}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GroupProject/Program.cs">
+    <Files>
+      <File FileName="GroupProject/Program.cs" Line="2" Column="7" />
+      <File FileName="GroupProject/Task.cs" Line="11" Column="27" />
+      <File FileName="GroupProject/MathTask.cs" Line="9" Column="69" />
+      <File FileName="GroupProject/JavaTask.cs" Line="16" Column="1" />
+      <File FileName="GroupProject/TaskFactory.cs" Line="7" Column="34" />
+      <File FileName="GroupProject/MathTaskFactory.cs" Line="1" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GroupProject" expanded="True">
+            <Node name="Tasks" expanded="True" />
+            <Node name="GroupProject" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GroupProject FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
