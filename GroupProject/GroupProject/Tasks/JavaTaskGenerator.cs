@@ -5,7 +5,7 @@ namespace GroupProject.Tasks
 {
     public class JavaTaskGenerator : TaskFactory
     {
-        Stack<JavaTask> tasks = new Stack<JavaTask>();
+        private Stack<JavaTask> tasks = new Stack<JavaTask>();
 
         public JavaTaskGenerator()
         {

@@ -5,7 +5,7 @@ namespace GroupProject.Tasks
 {
     public class EnglishTaskGenerator : TaskFactory
     {
-        Stack<EnglishTask> tasks = new Stack<EnglishTask>();
+        private Stack<EnglishTask> tasks = new Stack<EnglishTask>();
 
         public EnglishTaskGenerator()
         {

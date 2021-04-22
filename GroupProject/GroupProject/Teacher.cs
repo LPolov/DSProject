@@ -10,9 +10,7 @@ namespace GroupProject
         private string fName;
         private string lName;
         private List<StudentGroup> groups = new List<StudentGroup>();
-        TaskChecker taskChecker;
         Queue<Task> tasks;
-        TaskFactory taskFactory;
 
         public Teacher(College college, string fName, string lName)
         {
@@ -23,16 +21,31 @@ namespace GroupProject
             startSemester();
         }
 
-        public StudentGroup GetGroup() {
-            return groups[new Random().Next(groups.Count)];
+        public void startSemester()
+        {
+            HashSet<Student> students;
+
+            for (int i = 0; i < 3; i++)
+            {
+                students = new HashSet<Student>();
+
+                while (students.Count < 4)
+                {
+                    students.Add(college.getStudents()[new Random().Next(college.getStudents().Count)]);
+                }
+
+                groups.Add(new StudentGroup(new LinkedList<Student>(students), createGroupDetails()));
+            }
         }
 
-        public void addGroup(StudentGroup group) {
-            groups.Add(group);
-        }
-
-        public void addTask(Task task) {
-            tasks.Enqueue(task);
+        public GroupDetails createGroupDetails()
+        {
+            Random rand = new Random();
+            List<String> programs = new List<String>(college.getPrograms().Keys);
+            int semNum = rand.Next(1, 5);
+            int progNum = rand.Next(programs.Count);
+            LinkedList<Course> courses = college.getPrograms()[programs[progNum]];
+            return GroupDetails.getGroupDetails(semNum, courses, programs[progNum]);
         }
 
         public void work() {
@@ -40,7 +53,7 @@ namespace GroupProject
             Console.WriteLine("\nGives tasks for all students in each group");
             for (int i = 0; i < groups.Count; i++)
             {
-                Console.WriteLine("For group " + (i + 1) + ":\n");
+                Console.WriteLine("\nFor group " + (i + 1) + ":\n");
                 createTasksForGroup(groups[i]);
                 Console.WriteLine("\nEvaluating tasks:");
                 for (int j = 0; j < groups[i].GetGroupDetails().GetCourses().Count; j++) {
@@ -66,31 +79,6 @@ namespace GroupProject
                 }
             }
         }
-        public void startSemester()
-        {
-            HashSet<Student> students;
-
-            for (int i = 0; i < 3; i++)
-            {
-                students = new HashSet<Student>();
-
-                while (students.Count < 4)
-                {
-                    students.Add(college.getStudents()[new Random().Next(college.getStudents().Count)]);
-                }
-
-                groups.Add(new StudentGroup(new LinkedList<Student>(students), createGroupDetails()));
-            }
-        }
-
-        public GroupDetails createGroupDetails() {
-            Random rand = new Random();
-            int semNum = rand.Next(1, 5);
-            List <String> programs = new List<String>(college.getPrograms().Keys);
-            int progNum = rand.Next(programs.Count);
-            LinkedList <Course> courses = college.getPrograms()[programs[progNum]];
-            return GroupDetails.getGroupDetails(semNum, courses, programs[progNum]);
-        }
 
         private void evaluate(Student student, Task task) {
             
@@ -113,5 +101,11 @@ namespace GroupProject
         }
 
         public string GetName() { return fName + " " + lName; }
+
+        public StudentGroup GetGroup(){ return groups[new Random().Next(groups.Count)];}
+
+        public void addGroup(StudentGroup group){groups.Add(group);}
+
+        public void addTask(Task task){tasks.Enqueue(task);}
     }
 }

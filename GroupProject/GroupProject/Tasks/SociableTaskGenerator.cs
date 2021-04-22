@@ -5,7 +5,7 @@ namespace GroupProject.Tasks
 {
     public class SociableTaskGenerator : TaskFactory
     {
-        Stack<SociableSkillsTask> tasks = new Stack<SociableSkillsTask>();
+        private Stack<SociableSkillsTask> tasks = new Stack<SociableSkillsTask>();
 
         public SociableTaskGenerator()
         {

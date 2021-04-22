@@ -5,7 +5,7 @@ namespace GroupProject
 {
     public class MathTaskGenerator : TaskFactory
     {
-        Stack<MathTask> tasks = new Stack<MathTask>();
+        private Stack<MathTask> tasks = new Stack<MathTask>();
 
         public MathTaskGenerator()
         {

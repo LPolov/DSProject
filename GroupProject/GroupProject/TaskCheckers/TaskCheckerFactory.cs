@@ -5,7 +5,7 @@ namespace GroupProject.TaskCheckers
 {
     public class TaskCheckerFactory
     {
-        public TaskCheckerFactory()
+        private TaskCheckerFactory()
         {
         }
 

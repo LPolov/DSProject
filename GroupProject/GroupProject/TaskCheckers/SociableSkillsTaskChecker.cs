@@ -5,7 +5,7 @@ namespace GroupProject.TaskCheckers
 {
     public class SociableSkillsTaskChecker : TaskChecker
     {
-        String[] ans = new String[] {"I like it.", "So-so", "Great!" };
+        private String[] ans = new String[] {"I like it.", "So-so", "Great!" };
         public SociableSkillsTaskChecker()
         {
         }
