@@ -1,6 +1,7 @@
 ﻿using System;
 namespace GroupProject.Tasks
 {
+    //This class is used to represent tasks for Sociable Skills course.
     public class EnglishTask : Task
     {
         public EnglishTask(String question, String[] variants, String[] answers, String name)

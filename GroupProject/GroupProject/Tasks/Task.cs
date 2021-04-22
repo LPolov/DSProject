@@ -2,6 +2,9 @@
 
 namespace GroupProject
 {
+    /*This interface is used to implement factory pattern.
+     * It contains base funstionality of all task types.
+     */
     public abstract class Task
     {
         protected String question;

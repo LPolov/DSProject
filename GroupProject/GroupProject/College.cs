@@ -8,6 +8,15 @@ namespace GroupProject
         private string name;
         private List<Teacher> teachers;
         private List<Student> students;
+
+        /*program name - key, linked list of courses - value;
+         * We chose dictionary because we had to store pair of values together
+         * and it is the bast way to do it.
+         * Courses are stored in the linked list we do not need to have an access by index, 
+         * but we can insert and delete courses from the program's course list faster than if we use array.
+         * So, it allow to make future functionality faster in case if programmer decides to add function
+         * to remoce courses from program's course list.
+        */
         private Dictionary<String, LinkedList<Course>> programsAndCourses;
 
         public College(string name)
@@ -19,7 +28,10 @@ namespace GroupProject
             populateCollege();
         }
         
-
+        /*This method populates teachers and students lists.
+         * It contains two arrays, first contains first names, second - second names.
+         * Also, method creates one array which contains program name, and another one contains courses names.
+         */
         private void populateCollege() {
             String[] firstNames = { "Jack", "Sam", "Paul", "Mike", "Robert", "Lisa", "Kate"
                     , "Sarrah", "Nastya", "El", "Jessy", "Rose", "Rosanna", "Silver", "Ray", "Luiza", "El"
@@ -41,6 +53,10 @@ namespace GroupProject
             populateParticipants(firstNames, lastNames);
         }
 
+        /*This method populates college with 100 students with names which are created by random
+         * combination of elements from firstNames and lastNames arrays.
+         * Also, it populates college with 10 teachers who also have random generated names.
+         */
         private void populateParticipants(String[] firstNames, String[] lastNames)
         {
             Random rand = new Random();
@@ -56,6 +72,15 @@ namespace GroupProject
             }
         }
 
+
+        /*   Method takes two arrays which have program and courses names respectively.
+         * It goes through each program from programNames array and puts each program
+         * and corresponding courses list of this program.
+         * On account of that fact that each program has unique combination of courses,
+         * for loop contains if statement. This statement allows to add specific 
+         * courses depending on the name of the program.
+         * After for loop programsAndCourses dictionary is filled by all programs and courses.
+         */
         private void populatePrograms(String[] programNames, String[] coursesNames)
         {
             LinkedList<Course> courses;

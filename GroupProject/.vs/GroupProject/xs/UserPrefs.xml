@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{AFE3E7A0-F7CE-4BF1-88E9-64EB94AEF269}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="GroupProject/Program.cs">
     <Files>
-      <File FileName="GroupProject/WorkFlow.cs" Line="41" Column="14" />
+      <File FileName="GroupProject/Learnable.cs" Line="5" Column="61" IsPinned="True" />
       <File FileName="GroupProject/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -10,7 +10,6 @@
           <Node name="GroupProject" expanded="True">
             <Node name="GroupProject" expanded="True">
               <Node name="TaskCheckers" expanded="True" />
-              <Node name="Tasks" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
