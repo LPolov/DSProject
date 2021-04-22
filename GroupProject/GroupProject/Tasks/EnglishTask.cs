@@ -1,10 +1,9 @@
 ﻿using System;
-
-namespace GroupProject
+namespace GroupProject.Tasks
 {
-    public class JavaTask : Task
+    public class EnglishTask : Task
     {
-        public JavaTask(String question, String[] variants, String[] answers, String name)
+        public EnglishTask(String question, String[] variants, String[] answers, String name)
         {
             this.question = question;
             this.variants = variants;

@@ -1,0 +1,12 @@
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/bin/Debug/netcoreapp3.1/GroupProject.deps.json
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/bin/Debug/netcoreapp3.1/GroupProject.runtimeconfig.json
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/bin/Debug/netcoreapp3.1/GroupProject.runtimeconfig.dev.json
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/bin/Debug/netcoreapp3.1/GroupProject.dll
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/bin/Debug/netcoreapp3.1/GroupProject.pdb
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.csprojAssemblyReference.cache
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.AssemblyInfoInputs.cache
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.AssemblyInfo.cs
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.csproj.CoreCompileInputs.cache
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.dll
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.pdb
+/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/obj/Debug/netcoreapp3.1/GroupProject.genruntimeconfig.cache

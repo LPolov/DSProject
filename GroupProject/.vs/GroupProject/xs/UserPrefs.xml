@@ -1,20 +1,29 @@
 ﻿<Properties StartupConfiguration="{AFE3E7A0-F7CE-4BF1-88E9-64EB94AEF269}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GroupProject/Learnable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GroupProject/Teacher.cs">
     <Files>
-      <File FileName="GroupProject/Program.cs" Line="10" Column="46" />
-      <File FileName="GroupProject/Task.cs" Line="15" Column="31" />
-      <File FileName="GroupProject/MathTask.cs" Line="1" Column="14" />
-      <File FileName="GroupProject/JavaTask.cs" Line="1" Column="14" />
-      <File FileName="GroupProject/TaskFactory.cs" Line="7" Column="34" />
-      <File FileName="GroupProject/MathTaskFactory.cs" Line="1" Column="14" />
-      <File FileName="GroupProject/TaskCheckers/TaskChecker.cs" Line="9" Column="1" />
-      <File FileName="GroupProject/Student.cs" Line="16" Column="22" />
-      <File FileName="GroupProject/GroupDetails.cs" Line="10" Column="31" />
-      <File FileName="GroupProject/Course.cs" Line="4" Column="18" />
-      <File FileName="GroupProject/Group.cs" Line="20" Column="29" />
+      <File FileName="GroupProject/Program.cs" Line="27" Column="57" />
+      <File FileName="GroupProject/Tasks/JavaTask.cs" Line="15" Column="2" />
+      <File FileName="GroupProject/Tasks/TaskFactory.cs" Line="8" Column="30" />
+      <File FileName="GroupProject/TaskCheckers/TaskCheckerDecorator.cs" Line="18" Column="1" />
+      <File FileName="GroupProject/TaskCheckers/JavaTaskChecker.cs" Line="17" Column="36" />
+      <File FileName="GroupProject/Tasks/MathTaskFactory.cs" Line="25" Column="121" />
+      <File FileName="GroupProject/Tasks/MathTask.cs" Line="12" Column="13" />
+      <File FileName="GroupProject/TaskCheckers/TaskCheckerFactory.cs" Line="16" Column="56" />
+      <File FileName="GroupProject/Tasks/JavaTaskFactory.cs" Line="43" Column="171" />
+      <File FileName="GroupProject/Tasks/EnglishTask.cs" Line="11" Column="30" />
+      <File FileName="GroupProject/Tasks/SociableSkillsTask.cs" Line="11" Column="30" />
+      <File FileName="GroupProject/Tasks/EnglishTaskFactory.cs" Line="26" Column="134" />
+      <File FileName="GroupProject/Tasks/SociableTaskGenerator.cs" Line="20" Column="154" />
+      <File FileName="GroupProject/TaskCheckers/MathTaskChecker.cs" Line="14" Column="36" />
+      <File FileName="GroupProject/TaskCheckers/EnglishTaskChecker.cs" Line="15" Column="13" />
+      <File FileName="GroupProject/TaskCheckers/SociableSkillsTaskChecker.cs" Line="15" Column="47" />
+      <File FileName="GroupProject/Teacher.cs" Line="61" Column="1" />
+      <File FileName="GroupProject/Learnable.cs" Line="1" Column="1" />
+      <File FileName="GroupProject/StudentGroup.cs" Line="24" Column="22" />
+      <File FileName="GroupProject/GroupDetails.cs" Line="7" Column="18" />
       <File FileName="GroupProject/College.cs" Line="1" Column="1" />
-      <File FileName="GroupProject/Teacher.cs" Line="38" Column="10" />
-      <File FileName="GroupProject/Learnable.cs" Line="6" Column="36" />
+      <File FileName="GroupProject/Tasks/Task.cs" Line="7" Column="27" />
+      <File FileName="GroupProject/Course.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,18 +32,20 @@
             <Node name="GroupProject" expanded="True">
               <Node name="TaskCheckers" expanded="True" />
               <Node name="Tasks" expanded="True" />
-              <Node name="Learnable.cs" selected="True" />
+              <Node name="Teacher.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GroupProject FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GroupProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/leontiipolovinko/Design_Patterns/Final_Project/GroupProject/GroupProject/Teacher.cs" relfile="GroupProject/Teacher.cs" line="59" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

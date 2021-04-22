@@ -1,10 +1,8 @@
 ﻿using System;
 namespace GroupProject.TaskCheckers
 {
-    public class TaskChecker
+    public interface TaskChecker
     {
-        public TaskChecker()
-        {
-        }
+        public abstract bool checkTask(Task task, String[] studentAns);
     }
 }
